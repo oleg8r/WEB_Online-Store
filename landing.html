@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--
+    author:        Oleg Savelev
+    student ID:    060494135
+    created for:   WEB222 Assignment #2
+    due date:      October 31, 2020
+-->
+
+<html lang="en" id="top">
+<!--
+    The above html tag signifies the beginning of this web page.
+    Top ID is used to get back to the top of the page from different places on the page.
+-->
+
+
+    <!--HEAD-->
+    <head>
+        
+        <meta charset="UTF-8" />
+        <!-- 
+		    1) The above meta tag tells the web browser of the character encoding (UTF-8 = Unicode Transformation Format-8) selected for this web page 
+            See http://www.iana.org/assignments/character-sets/character-sets.xml for more character sets.
+            2) This meta tag is mandatory for the assignment submission.
+	    -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--
+            1) The above meta tag tells the web browser to set the viewport of the web page as part of responsive web design.
+            To be properly displayed on different size monitors.
+            2) This meta tag is mandatory for the assignment submission.
+        -->
+
+	    <!--meta http-equiv="refresh" content="0; url=http://www.google.ca/" /-->
+	    <!-- 
+            The above meta tag tells the web browser to load a different web page after zero seconds (immediately.)
+            Please use this meta tag if the website address is changed. Just replace "http://www.google.ca/" with a new website address.
+	    -->
+	
+        <meta name="description" content="Course: WEB222 Topic: Assignment #2">
+        <!-- 
+            The above meta tag provides the web browser a short description of this web page.
+            Several browsers, like Firefox and Opera, use this as the default description of bookmarked pages.
+        -->
+        
+        <meta name="author" content="Oleg Savelev">
+        <!--The above meta tag provides the web browser a short description of this web page.-->
+
+
+        <title>Store Assignment by Oleg Savelev</title>
+        <!--The value in the above title tag will appear in the title bar of the web browser.-->
+    
+        <style>
+            @import "CSS External Style Sheet.css";
+            body
+            {
+                /* position:  absolute;
+                left: 0%;
+                margin: auto; 
+                width: 100%;
+                color: blue; */
+                background-color: #fbfad3;
+            }
+            main
+            {
+                position: relative;
+                background-color: #c6e377;
+                /*background-image: linear-gradient(
+                    90deg,
+                    #c6e377,
+                    #729d39
+                );*/
+                margin: 0 auto;
+                height: 640px;
+                width: 60%;
+            }
+        </style>
+
+        <!-- <script> -->
+            <!--
+                1) Code here internally on the webpage using JavaScript.
+                2) Or put your JavaScript code between the script tags if this website is supposed to use JavaScript.
+                3) Or link the external JavaScript file.
+            -->
+        <!-- </script> -->
+
+    </head>
+
+
+    <!--BODY-->
+    <body>
+
+        <!--Header-->
+        <header >
+        <!-- The top part of the website with all the main titles -->
+            <h1 id="container1"><b id="transition1">The Organic Food Store</b></h1>
+            <h2 id="container1b"><b id="transition1b"><i>Always natural, always fresh</i></b></h2>
+         
+            <nav class="nav">
+            <!--The website navigation/selection/menu-->
+               
+                <ul>
+                    <!--section id="container1"-->
+                    <!--h6 id="transition1"><i>:hover</i> transition: font-size 3s, color 2s;</h6-->
+                    <!--p id="transition1"><i>:hover</i> transition: font-size 3s, color 2s;</p-->
+
+                    <!-- The <a> tag defines a hyperlink that links to another web page or another part of the same web page-->
+                    <li id="container4b"><a id="transition4b" href="home.htm" target="container">Home</a></li>
+                    <li id="container4c"><a id="transition4c" href="fruits.htm" target="container">Fruits</a></li>
+                    <li id="container4d"><a id="transition4d" href="vegetables.htm" target="container">Vegetables</a></li>
+                    <li id="container4e"><a id="transition4e" href="pastry.htm" target="container">Pastry</a></li>
+                    <li id="container4f"><a id="transition4f" href="drinks.htm" target="container">Drinks</a></li>
+                    <li id="container4g"><a id="transition4g" href="orders.htm" target="container">Oders</a></li>
+                    <li id="container4h"><a id="transition4h" href="about.htm" target="container">About</a></li>
+                    <li id="container3"><a id="transition3" href="more.htm" target="container">More</a></li>
+                </ul>
+                
+            </nav>
+            
+        </header>
+            
+        <br>
+
+        <!--Main-->
+        <!--This part of the website contains all the main website content-->
+        <main class="mainContainer">
+            
+                <iframe name="container" src="home.htm"></iframe>
+            
+        </main>
+
+    </body>
+
+<!--
+    author:        Oleg Savelev
+    student ID:    060494135
+    created for:   WEB222 Assignment #2
+    due date:      October 31, 2020
+-->
+
+</html>

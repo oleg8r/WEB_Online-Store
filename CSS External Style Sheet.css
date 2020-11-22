@@ -1,0 +1,1002 @@
+/*
+*  
+{
+font-family: none;  
+} */
+h1
+{
+    font-family: georgia, garamond;
+    font-weight: 900;
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 3px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+h2
+{
+    font-family: georgia, garamond;
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+h3
+{
+    font-family: times, arial;
+    text-align: center;
+    color: purple;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+h4
+{
+    font-family: arial, times;
+    text-align: left;
+    color: #004445;
+    letter-spacing: 1px;
+}
+h5
+{
+    font-family: arial, times;
+    text-align: center;
+    color: #004445;
+}
+hr
+{
+    border: 2px solid;
+    background-color: #004445;
+    height: 2px;
+    width: 100%;
+}
+
+body
+{
+    position:  absolute;
+    left: 0%;
+    margin: 0; 
+    width: 100%;
+    /*color: blue;*/
+    /*background-color: #fbfad3;*/
+} 
+
+header
+{
+    position: relative;
+    top: 0%;
+    margin: 0 auto;
+    height: 150px;
+    width: 100%;
+    color:rgba(91, 125, 218); 
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    /*background-color: #729d39;*/
+    background-image: linear-gradient(
+        180deg,
+        #c6e377,
+        #729d39
+    );
+}
+main
+{
+    /*position: relative;*/
+    background-color: #c6e377;
+    /*background-image: linear-gradient(
+        90deg,
+        #c6e377,
+        #729d39
+    );*/
+    /*margin: 0 auto;
+    height: 600px;
+    width: 60%;*/
+}
+iframe  /* 	The iframe tag defines an inline frame for the inclusion of external objects including other HTML documents. */
+{
+    border: 1px solid #c6e377;
+    display: block;
+    height: 640px;
+    margin: 0; /*Always use it to center an element in the middle of the screen*/
+    width: 100%;	
+}
+/* footer
+{
+    position: relative;
+    margin: 0 auto;
+    bottom: 0%;
+    width: 63%; 
+    height: 400px;
+    background-color: #0dceda;
+    text-align: center;
+    border: 0.2em solid rgba(50%, 50%, 50%, 0.5);
+    border-radius: 10px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+} */
+article
+{
+    position: relative;
+    background-color: #c6e377;
+    /*background-image: linear-gradient(
+        90deg,
+        #c6e377,
+        #729d39
+    );*/
+    margin: 0 auto;
+    height: 95%;
+    width: 100%;
+}
+section
+{
+    border: .3em groove #c6e377;
+    border-radius: 10px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+}
+.mainContainer   /*This option of organizing the main space requires <main class="container">*/
+{
+    border: 0.2em solid rgba(50%, 50%, 50%, 0.5);
+    border-radius: 10px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    /* height: 40vmax; */
+    margin: 0 auto; /*Always use it to center an element in the middle of the screen*/
+    padding: 2.5vh 2.5vh;
+    width: 60%;
+}
+/* 
+Note:
+"margin: 0 auto" also works for absolutely positioned elements provided offset properties "left" and "right" are both set to 0. 
+*/
+
+/* article.container
+{
+    background-color:rgb(52, 155, 240);
+    border: 0.2em solid rgba(50%, 50%, 50%, 0.5);
+    border-radius: 10px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    margin: 0 auto;
+    padding: 2.5vh 2.5vh;
+    width: 60%;
+} */
+/* aside
+{
+    position: absolute;
+    right: 2.5%;
+    border: 4px dotted rgba(9, 12, 184, 0.521);
+    border-radius: 10px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    text-align: left;
+    top: 600px;
+    padding-top: 10pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    padding-bottom: 10pt;
+    color: yellow; 
+    background: rgb(52, 155, 240);
+} */
+img
+{
+    position: relative;
+    margin: 0 auto;
+    left: 25%;
+    border: 1px outset #36622b;
+    border-radius: 10px;    /* rounded corners for images */
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+}
+.homePgImage
+{
+    position: relative;
+    margin: 0 auto;
+    left: 20%;
+    border: 1px outset #36622b;
+    border-radius: 10px;    /* rounded corners for images */
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+}
+#arrow /*Alt control of top-arrow location*/
+{
+    position: relative;
+    left: 50%;
+    display: block;
+}
+p
+{
+    border: none;
+    text-align: center;
+    font-size: 1.2em;
+}	
+p.w3c
+{
+    background-color: #fff;
+    border-width: 0px;
+    text-align: left;
+    font-size: 1.0em;
+}	
+.topleft
+{
+    color: #f00;
+    left: 0px;
+    position: absolute;
+    top: 50%;
+}	
+.topright
+{
+    color: #0f0;
+    right: 400px;
+    position: absolute;
+    top: 40%;
+}	
+.bottomleft
+{
+    color: #00f;
+    left: 300px;
+    position: absolute;
+    bottom: 50%;
+}	
+.bottomright
+{
+    color: #f0f;
+    right: 10%;
+    position: absolute;
+    bottom: 100px;
+}	
+.topleftcorner
+{
+    color: #abf;
+    left: 0%;
+    position: absolute;
+    top: 0px;
+}	
+.bottomleftcorner
+{
+    color: #000;
+    left: 0px;
+    position: absolute;
+    bottom: 0%;
+}	
+.bottomrightcorner
+{
+    color: #abf;
+    right: 0%;
+    position: absolute;
+    bottom: 0px;
+}	
+.topbottomleftright
+{
+    background-color: transparent;
+    border-color: #00f;
+    color: #00f;
+    left: 0%;
+    right: 0%;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+}	
+.toprightcorner
+{
+    color: #00f;
+    right: 0%;
+    position: fixed;
+    top: 0px;
+}
+.centering1
+{
+    left: 0;
+    margin: 0 auto; /*Always use it to center an element in the middle of the screen*/
+    right: 0;
+    top: 20%;
+}
+.centering2  /*it's the 2nd way to center in the middle of the screen*/
+{
+    left: 50%;				/*	align left to center of parent element	*/
+    margin-left: -15%;		/*	shift half of width to the left	*/
+    top: 60%;
+}
+table
+{
+    margin: 0 auto;
+    padding: 3px;
+    width: 50%;
+}
+td
+{
+    font: 1em calibri;			
+    height: auto;
+    padding: 5px;
+    text-align: left;	
+    width: 33%;	
+    font-family: times, arial;
+    text-align: left;
+    color: #004445;
+    letter-spacing: 1px;
+}
+table.tb1
+{
+    /*border: 3px solid #004445;			
+    border-spacing: 3px;*/
+}
+.tb1 td
+{
+    /*border: 2px solid #004445;*/
+}
+
+#container1 
+{
+    top: 200px;
+}
+#transition1
+{
+    color: #fbfad3;
+    transition: font-size 1s linear, color 1s linear;   /*To change them one by one with a constant speed*/
+    /*transition: all 0.5s ease-in 0.1s;*/	/*To change them all together with a different speed*/
+}
+#container1:hover #transition1
+{
+    color: rgb(5, 252, 190);
+    font-size: 1.1em;
+}
+#container1b
+{
+    top: 200px;
+}
+#transition1b
+{
+    color: #fbfad3;
+    transition: font-size 1s linear, color 1s linear;   /*To change them one by one with a constant speed*/
+    /*transition: all 0.5s ease-in 0.1s;*/	/*To change them all together with a different speed*/
+}
+#container1b:hover #transition1b
+{
+    color: rgb(5, 252, 190);
+    font-size: 1.1em;
+}
+#container2
+{
+    top: 260px;
+}
+#transition2
+{
+    background-color: #0f0;
+    border-width: 0;
+    height: 20%;
+    width: 50%;
+    transition: background-color 3s, width 3s;
+}
+#container2:hover #transition2
+{
+    background-color: #00f;
+    width: 90%;
+}
+#container3
+{
+    top: 320px;
+}
+#transition3
+{
+    width: 30px;
+    height: 20px;
+    background: rgb(255, 0, 0, 0.0);
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: opacity 1s linear;		
+    opacity: 0.3;
+}
+#container3:hover #transition3
+{
+    opacity: 1.0;
+    background: rgb(255, 0, 0, 0.6);
+}
+#container3:active #transition3
+{
+    background-color: #36622b;
+    border-left: 20px solid rgb(255, 0, 0, 0.6);
+    border-right: 20px solid rgb(255, 0, 0, 0.6);
+}
+
+#container4
+{
+    /*top: 5px;*/
+}
+#transition4    /*NOT IN USE*/
+{
+    /* width: 20px;
+    height: 20px; */
+    /* background: rgba(255, 0, 255, 0.6); */
+    /* left: 0px; */
+    margin: 0 auto;
+    /*position: relative;*/
+    /* top: 0px; */
+    background-color: #36622b;
+    border-radius: 50%;
+    color:#fbfad3;
+    font-size: 1.0em;
+    transition: bottom 0.5s, font-size 0.5s, color 0.5s;
+}
+#container4:hover #transition4
+{
+    /* left: 100px; */
+    bottom: 5px;
+    background-color: rgb(0, 70, 71, 0.5);
+    color: #ff0;
+    font-size: 1.1em;
+}	
+
+
+#container4b     /*for the home button*/
+{
+    /*top: 5px;*/
+}
+#transition4b
+{
+    /* width: 20px;
+    height: 20px; */
+    /* background: rgba(255, 0, 255, 0.6); */
+    /* left: 0px; */
+    margin: 0px 6px;
+    padding: 10px;
+    /*position: relative;*/
+    /* top: 0px; */
+    background-image: linear-gradient(
+        0deg,
+        #d4f37f,
+        #80b141
+    );
+    border-radius: 100px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    color: #000;
+    ;
+    font-size: 1.0em;
+    transition: bottom 0.5s, font-size 0.5s, color 0.5s;
+}
+#container4b:hover #transition4b
+{
+    /* left: 100px; */
+    bottom: 5px;
+    background-color: rgb(0, 70, 71, 0.5);
+    color: #ff0;
+    font-size: 1.1em;
+}	
+#container4b:active #transition4b
+{
+    transform: rotate(1440deg);
+    border-color: #0ff;
+    border-radius: 100%;
+    color: gold;
+    background-image: linear-gradient(
+        0deg,
+        #80b141,
+        #d4f37f
+    );
+}	
+#container4c
+{
+    /*top: 5px;*/
+}
+#transition4c
+{
+    /* width: 20px;
+    height: 20px; */
+    /* background: rgba(255, 0, 255, 0.6); */
+    /* left: 0px; */
+    margin: 0px 6px;
+    padding: 10px;
+    /*position: relative;*/
+    /* top: 0px; */
+    background-image: linear-gradient(
+        0deg,
+        #d4f37f,
+        #80b141
+    );
+    border-radius: 100px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    color: #000;
+    ;
+    font-size: 1.0em;
+    transition: bottom 0.5s, font-size 0.5s, color 0.5s;
+}
+#container4c:hover #transition4c
+{
+    /* left: 100px; */
+    bottom: 5px;
+    background-color: rgb(0, 70, 71, 0.5);
+    color: #ff0;
+    font-size: 1.1em;
+}	
+#container4c:active #transition4c
+{
+    transform: rotate(1440deg);
+    border-color: #0ff;
+    border-radius: 100px;
+    color: gold;
+    background-image: linear-gradient(
+        0deg,
+        #80b141,
+        #d4f37f
+    );
+}	
+#container4d
+{
+    /*top: 5px;*/
+}
+#transition4d
+{
+    /* width: 20px;
+    height: 20px; */
+    /* background: rgba(255, 0, 255, 0.6); */
+    /* left: 0px; */
+    margin: 0px 6px;
+    padding: 10px;
+    /*position: relative;*/
+    /* top: 0px; */
+    background-image: linear-gradient(
+        0deg,
+        #d4f37f,
+        #80b141
+    );
+    border-radius: 100px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    color: #000;
+    ;
+    font-size: 1.0em;
+    transition: bottom 0.5s, font-size 0.5s, color 0.5s;
+}
+#container4d:hover #transition4d
+{
+    /* left: 100px; */
+    bottom: 5px;
+    background-color: rgb(0, 70, 71, 0.5);
+    color: #ff0;
+    font-size: 1.1em;
+}	
+#container4d:active #transition4d
+{
+    transform: rotate(1440deg);
+    border-color: #0ff;
+    border-radius: 100px;
+    color: gold;
+    background-image: linear-gradient(
+        0deg,
+        #80b141,
+        #d4f37f
+    );
+}	
+#container4e
+{
+    /*top: 5px;*/
+}
+#transition4e
+{
+    /* width: 20px;
+    height: 20px; */
+    /* background: rgba(255, 0, 255, 0.6); */
+    /* left: 0px; */
+    margin: 0px 6px;
+    padding: 10px;
+    /*position: relative;*/
+    /* top: 0px; */
+    background-image: linear-gradient(
+        0deg,
+        #d4f37f,
+        #80b141
+    );
+    border-radius: 100px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    color: #000;
+    ;
+    font-size: 1.0em;
+    transition: bottom 0.5s, font-size 0.5s, color 0.5s;
+}
+#container4e:hover #transition4e
+{
+    /* left: 100px; */
+    bottom: 5px;
+    background-color: rgb(0, 70, 71, 0.5);
+    color: #ff0;
+    font-size: 1.1em;
+}	
+#container4e:active #transition4e
+{
+    transform: rotate(1440deg);
+    border-color: #0ff;
+    border-radius: 100px;
+    color: gold;
+    background-image: linear-gradient(
+        0deg,
+        #80b141,
+        #d4f37f
+    );
+}	
+#container4f
+{
+    /*top: 5px;*/
+}
+#transition4f
+{
+    /* width: 20px;
+    height: 20px; */
+    /* background: rgba(255, 0, 255, 0.6); */
+    /* left: 0px; */
+    margin: 0px 6px;
+    padding: 10px;
+    /*position: relative;*/
+    /* top: 0px; */
+    background-image: linear-gradient(
+        0deg,
+        #d4f37f,
+        #80b141
+    );
+    border-radius: 100px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    color: #000;
+    ;
+    font-size: 1.0em;
+    transition: bottom 0.5s, font-size 0.5s, color 0.5s;
+}
+#container4f:hover #transition4f
+{
+    /* left: 100px; */
+    bottom: 5px;
+    background-color: rgb(0, 70, 71, 0.5);
+    color: #ff0;
+    font-size: 1.1em;
+}	
+#container4f:active #transition4f
+{
+    transform: rotate(1440deg);
+    border-color: #0ff;
+    border-radius: 100px;
+    color: gold;
+    background-image: linear-gradient(
+        0deg,
+        #80b141,
+        #d4f37f
+    );
+}	
+#container4g
+{
+    /*top: 5px;*/
+}
+#transition4g
+{
+    /* width: 20px;
+    height: 20px; */
+    /* background: rgba(255, 0, 255, 0.6); */
+    /* left: 0px; */
+    margin: 0px 6px;
+    padding: 10px;
+    /*position: relative;*/
+    /* top: 0px; */
+    background-image: linear-gradient(
+        0deg,
+        #d4f37f,
+        #80b141
+    );
+    border-radius: 100px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    color: #000;
+    ;
+    font-size: 1.0em;
+    transition: bottom 0.5s, font-size 0.5s, color 0.5s;
+}
+#container4g:hover #transition4g
+{
+    /* left: 100px; */
+    bottom: 5px;
+    background-color: rgb(0, 70, 71, 0.5);
+    color: #ff0;
+    font-size: 1.1em;
+}	
+#container4g:active #transition4g
+{
+    transform: rotate(1440deg);
+    border-color: #0ff;
+    border-radius: 100px;
+    color: gold;
+    background-image: linear-gradient(
+        0deg,
+        #80b141,
+        #d4f37f
+    );
+}	
+#container4h
+{
+    /*top: 5px;*/
+}
+#transition4h
+{
+    /* width: 20px;
+    height: 20px; */
+    /* background: rgba(255, 0, 255, 0.6); */
+    /* left: 0px; */
+    margin: 0px 6px;
+    padding: 10px;
+    /*position: relative;*/
+    /* top: 0px; */
+    background-image: linear-gradient(
+        0deg,
+        #d4f37f,
+        #80b141
+    );
+    border-radius: 100px;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    color: #000;
+    ;
+    font-size: 1.0em;
+    transition: bottom 0.5s, font-size 0.5s, color 0.5s;
+}
+#container4h:hover #transition4h
+{
+    /* left: 100px; */
+    bottom: 5px;
+    background-color: rgb(0, 70, 71, 0.5);
+    color: #ff0;
+    font-size: 1.1em;
+}	
+#container4h:active #transition4h
+{
+    transform: rotate(1440deg);
+    border-color: #0ff;
+    border-radius: 100px;
+    color: gold;
+    background-image: linear-gradient(
+        0deg,
+        #80b141,
+        #d4f37f
+    );
+}	
+
+#container4z
+{
+    /*top: 10px;*/
+}
+#transition4z     /*for the home button*/
+{
+    /* width: 20px;
+    height: 20px; */
+    /* background: rgba(255, 0, 255, 0.6); */
+    /* left: 0px; */
+    margin: 0 auto;
+    height: 20px;
+    /*position: relative;*/
+    /* top: 0px; */
+    /*background-color: #c6e377;*/
+    background-image: linear-gradient(
+        90deg,
+        #729d39,
+        #c6e377
+    );
+    border-radius: 15%;
+    box-shadow:	6px 6px 30px rgba(55, 55, 55, .6);
+    color:#36622b;
+    font-size: 1.0em;
+    transition: bottom 0.5s, font-size 0.5s, color 0.5s;
+}
+#container4z:hover #transition4z
+{
+    /* left: 100px; */
+    bottom: 5px;
+    background-color: rgb(28, 204, 207, 0.6);
+    border-radius: 25%;
+    color: #ff0;
+    font-size: 1.1em;
+}	
+#container4z:active #transition4z
+{
+    border-left: 20px solid#729d39;
+    border-right: 20px solid#c6e377;
+}
+
+
+#container5
+{
+    top: 440px;
+}
+#transition5
+{
+    border: 1px solid #000;
+    width: 90px;
+    height: 20px;
+    background: transparent;
+    margin: 1px auto;
+    transition-duration: 5s;		
+    transition-property: border;		
+}
+#container5:active #transition5
+{
+    border-left: 20px solid #f00;
+    border-right: 20px solid #0ff;
+}
+#container6
+{
+    top: 500px;
+}
+#transition6
+{
+    width: 60%;
+    height: 20px;
+    background-image: linear-gradient(
+        90deg,
+        rgb(90%, 10%, 10%),
+        rgb(10%, 66%, 95%)
+    );
+    margin: 1px auto;
+    transition: background-image 3s;		
+}
+#container6:hover #transition6
+{
+    background-image: linear-gradient(
+        90deg,
+        rgb(10%, 66%, 95%),
+        rgb(90%, 10%, 10%)
+    );
+}		
+#container7
+{
+    top: 560px;
+}
+#transition7
+{
+    background: #f00;
+    border: 3px solid #0f0;
+    border-radius: 3px;
+    color: #ff0;
+    font: bold 1.2em calibri; 
+    height: 22px;
+    margin: 0 auto 1px auto;
+    transition: all 3s;		
+    text-align: center;
+    width: 40px;
+}
+#container7:active #transition7
+{
+    transform: rotate(1440deg);
+    border-color: #0ff;
+    border-radius: 16px;
+    color: #000;
+}	
+#container8a
+{
+    height: 150px;
+    top: 620px;
+}
+#container8b
+{
+    border: 0px solid;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+    width: 200px;
+}
+#transition8a
+{
+    background: #666;
+    border: 3px dotted #000;
+    border-radius: 1px;
+    font: bold 1.2em calibri; 
+    height: 70px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    transition: all 3s ease-in 1s;		
+    width: 70px;
+}
+#transition8b
+{
+    background: #bbb;
+    border: 3px dotted #000;
+    border-radius: 16px;
+    color: #000;
+    font: bold 1.2em calibri; 
+    height: 30px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 30px;
+    transition: all 4s ease-out;		
+    width: 30px;
+    z-index: 10;
+}
+#container8a:hover #transition8a
+{
+    transform: rotate(1440deg);
+}	
+#container8b:hover #transition8b
+{
+    transform: rotate(-2880deg);
+}	
+
+/*ul {
+    /*list-style-type: none;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    background-color: #36622b;
+    display: block;
+}
+li
+{
+    float: left;
+    margin: 0 auto;
+    border-right: 5px ridge #729d39;
+    border-radius: 20%;
+}
+li:last-child
+{
+    /*border-right: none;*/
+/*li a
+{
+    display: block;
+    color: #fbfad3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active)   /* The ":hover" selector is used to select elements when you mouse over them. */
+/*{
+    background-color: #004445;
+}
+.active   /* The ".active" class is used to style the active link. */
+/*{
+    background-color: #c6e377;
+    color: #004445;
+}
+.active a:hover   /* The ":hover" selector is used to select elements when you mouse over them. */
+/*{
+    background-color: #6ad4d6;
+    color: #fbfad3;
+}*/
+ul
+{
+    list-style: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 40px;
+}
+.nav
+{
+    /*border:1px solid #ccc;
+    border-width:1px 0;*/
+    position: relative;
+    list-style: none;
+    height: 48px;
+    margin: 0 auto; /*to make nav remain constant in size*/
+    /*padding: 0;*/
+    text-align: center;
+    /*background-color: #36622b;*/
+    background-image: linear-gradient(
+        180deg,
+        #729d39,
+        #36622b
+    );
+}
+.nav li
+{
+    display: inline;
+    /*border-right: 5px ridge #729d39;*/
+}
+.nav li:last-child
+{
+    border-right: none;
+}
+.nav li:first-child
+{
+    border-right: none;
+}
+.nav a
+{
+    display:inline-block; /*Horizontal menu*/
+    color: #fbfad3;
+    text-align: center;
+    margin: 0 auto; /*to make nav remain constant in size*/
+    padding: 15px 15px;
+    text-decoration: none;
+}
+input[type="text"]:invalid
+{
+    color: #ff0000;
+}
